@@ -1,0 +1,16 @@
+{
+  "tilemaps": {
+    "main": {
+      "url": "image/sprite/char1.png",
+      "x": 48,
+      "y": 48
+    }
+  },
+
+  "sprites": {
+    "default": {
+      "x": 0,
+      "y": 0
+    }
+  }
+}

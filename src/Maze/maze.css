@@ -1,0 +1,97 @@
+.maze {
+  display: inline-table;
+  border-collapse: separate;
+  border: 1.5px solid black;
+}
+
+.maze-row {
+  display: table-row;
+}
+
+.maze-cell {
+  display: table-cell;
+  position: relative;
+  vertical-align: middle;
+  border-color: black;
+}
+
+.maze-fog {
+  z-index: 10;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.border-north {
+  padding-top: 0;
+  border-top: 1.5px solid black;
+}
+
+.border-south {
+  padding-bottom: 0;
+  border-bottom: 1.5px solid black;
+}
+
+.border-west {
+  padding-left: 0;
+  border-left: 1.5px solid black;
+}
+
+.border-east {
+  padding-right: 0;
+  border-right: 1.5px solid black;
+}
+
+.cell-sprite {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 19px;
+  left: 19px;
+  z-index: 100;
+}
+
+.cell-tile {
+  display: block;
+  width: 72px;
+  height: 72px;
+}
+
+.moveTo:hover {
+  background-color: palegreen;
+}
+
+.face-north {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.face-east {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.face-south {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.face-west {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}

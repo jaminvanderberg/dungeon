@@ -1,0 +1,117 @@
+{
+  "tilemaps": {
+    "main": {
+      "url": "image/tile/cave-tileset.png",
+      "x": 72,
+      "y": 72
+    }
+  },
+
+  "rules": [
+    {
+      "name": "4-way",
+      "mask": [true, true, true, true],
+      "tile": "main",
+      "x": 2,
+      "y": 1
+    },
+    {
+      "name": "3-way north",
+      "mask": [false, true, true, true],
+      "tile": "main",
+      "x": 2,
+      "y": 0
+    },
+    {
+      "name": "3-way south",
+      "mask": [true, true, false, true],
+      "tile": "main",
+      "x": 0,
+      "y": 3
+    },
+    {
+      "name": "3-way east",
+      "mask": [true, false, true, true],
+      "tile": "main",
+      "x": 2,
+      "y": 2
+    },
+    {
+      "name": "3-way west",
+      "mask": [true, true, true, false],
+      "tile": "main",
+      "x": 1,
+      "y": 2
+    },
+    {
+      "name": "corridor east-west",
+      "mask": [false, true, false, true],
+      "tile": "main",
+      "x": 3,
+      "y": 0
+    },
+    {
+      "name": "corridor north-south",
+      "mask": [true, false, true, false],
+      "tile": "main",
+      "x": 2,
+      "y": 3
+    },
+    {
+      "name": "corner northeast",
+      "mask": [false, false, true, true],
+      "tile": "main",
+      "x": 1,
+      "y": 3
+    },
+    {
+      "name": "corner northwest",
+      "mask": [false, true, true, false],
+      "tile": "main",
+      "x": 1,
+      "y": 1
+    },
+    {
+      "name": "corner southeast",
+      "mask": [true, false, false, true],
+      "tile": "main",
+      "x": 0,
+      "y": 2
+    },
+    {
+      "name": "corner southwest",
+      "mask": [true, true, false, false],
+      "tile": "main",
+      "x": 3,
+      "y": 3
+    },
+    {
+      "name": "dead-end north",
+      "mask": [false, false, true, false],
+      "tile": "main",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "dead-end south",
+      "mask": [true, false, false, false],
+      "tile": "main",
+      "x": 0,
+      "y": 1
+    },
+    {
+      "name": "dead-end east",
+      "mask": [false, false, false, true],
+      "tile": "main",
+      "x": 3,
+      "y": 1
+    },
+    {
+      "name": "dead-end west",
+      "mask": [false, true, false, false],
+      "tile": "main",
+      "x": 1,
+      "y": 0
+    }
+  ]
+}
